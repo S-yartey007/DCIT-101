@@ -1,0 +1,36 @@
+h2:hover{
+    color: red;
+}
+h2[class = download]{
+    color: gray;
+}
+.Pinicle{
+    color: red;
+}
+li:nth-child(4){
+    color: violet;
+}
+
+/* #tv-shows:link{
+    color:aquamarine;
+}
+#tv-shows:after{
+    color: red;
+} */
+
+h1 + a{
+    color: brown;
+}
+ 
+textarea~button{
+    color: red;
+}
+ul > li{
+    color: green;
+}
+ol li {
+    color: blue
+}
+img[src^="../HTML/"]{
+    border: 10px  solid black;
+}
